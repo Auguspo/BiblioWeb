@@ -20,9 +20,8 @@
   text-align: center;
   display: block;
 }
-.txt h5{
-    font-size: ;
-}
+
+.txt li{   font-style: italic;}
 
 .recursos {
   margin-bottom: 25px;
