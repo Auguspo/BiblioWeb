@@ -1,3 +1,8 @@
+body {
+  background-color: #f5deb3;
+
+}
+
 .poster {
   display: block;
   margin-left: auto;
@@ -14,6 +19,7 @@
 .txt {
   width: 50%;
   margin: 0 25% 0 25%;
+  text-align: justify;
 }
 
 .txt h1 {
@@ -21,7 +27,9 @@
   display: block;
 }
 
-.txt li{   font-style: italic;}
+.txt li {
+  font-style: italic;
+}
 
 .recursos {
   margin-bottom: 25px;
@@ -31,6 +39,8 @@
 .recursos h2 {
   color: green;
   font-weight: 700;
+  text-align: start;
+  
 }
 
 .recursos a {
@@ -44,18 +54,57 @@
   font-size: large;
 }
 
-.articulo{
-    margin-bottom: 50px;
-    margin-top: 50px;
-    background-color: rgba(202, 202, 202, 0.329);
+.articulo {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: rgba(202, 202, 202, 0.329);
+  border-radius: 10px;
+  padding: 2%;
 }
 
-.articulo li{
-    font-style: italic;
-
+.articulo li {
+  font-style: italic;
 }
 
-.articulo a{
-    font-weight: 700;
-    font-style: italic;
+.articulo a {
+  font-weight: 700;
+  font-style: italic;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.mapa {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+@media only screen and (max-width: 915px) {
+  /* For mobile phones: */
+  [class="txt recursos"] {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+  }
+
+  [class="txt"] {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+  }
+
+  [class="articulo"] {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+  }
+
+  [class="poster"] {
+    display: block;
+    width: 100%;
+  }
+
+
 }
